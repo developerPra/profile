@@ -1,0 +1,144 @@
+body,
+html {
+	padding: 0;
+	margin: 0;
+	color: #868e96;
+	scroll-behavior: smooth;
+
+}
+h1,h2,h3 {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 72px;
+	font-family: oswald;
+}
+h1{
+	cursor: pointer;
+}
+h2{
+	font-size: 40px;
+}
+h3{
+	font-size: 30px;
+}
+.subheading {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: oswald;
+  font-size: 20px;
+}
+
+.resume-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#about{
+	margin-top: 70px;
+	margin-bottom: 300px;
+}
+#project{
+	margin-top: 100px;
+}
+#education{
+	margin-bottom: 150px;
+}
+#skills{
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+#interest{
+	margin-bottom: 200px;
+}
+#awards{
+	margin-top: 200px;
+	padding-top: 100px;
+	margin-bottom: 300px;
+}
+#sidenav .navbar-nav .nav-item .nav-link {
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.social-icons a {
+  height: 56px;
+  width: 56px;
+  background-color: #495057;
+  color: #fff ;
+  border-radius: 100%;
+  font-size: 24px;
+  line-height: 56px;
+  margin-right: 10px;
+}
+.social-icons a:hover {
+  background-color: #008ecc;
+}
+.dev-icons {
+  font-size: 45px;}
+
+.dev-icons .list-inline-item i:hover {
+  color: #008ecc;
+}
+
+p.lead {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.project-date{
+float: right;
+margin-top: 30px;
+}
+
+#skills ul li,#awards ul li{
+	list-style-type:none;
+	cursor: pointer; 
+}
+/*********** Media query starts here *************/
+/* from md screen */
+
+@media (min-width: 992px) {
+	body{
+		margin-left:280px;
+	}
+	#sidenav {
+		text-align: center;
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: block;
+		width: 280px;
+		height: 100%;
+	}
+
+	#sidenav .navbar-brand {
+		display: block;
+		margin: auto auto 0;
+		padding: 12px;
+		margin-top: 120px;
+	}
+
+	#sidenav .navbar-brand .img-profile {
+		width: 160px;
+		height: 160px;
+		border: 8px solid rgba(255, 255, 255, 0.2);
+	}
+
+	#sidenav .navbar-collapse {
+		display: block;
+		width: 100%;
+		margin-bottom: auto;
+	}
+
+	#sidenav .navbar-collapse .navbar-nav {
+		width: 100%;
+		display: block;
+	}
+	.resume-section {
+    padding-top: 48px ;
+    padding-bottom: 48px ;
+  }
+}
+.empty{
+	margin: 70px;
+}
